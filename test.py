@@ -1,5 +1,6 @@
 print("Hello, World!\n")
 
+// 관련자의 정보를 삭제 후 재작성 필요
 int grade=2
 int my_gd=21
 string name_sc="한국 외국어 대학"
