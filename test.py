@@ -1,25 +1,28 @@
-print("Hello, World!")
+print("Hello, World!\n")
 
-// 관련자의 정보를 추가
-학년 : 2학년
-학번 : 202002438
-이름 : 이상도
-학과 : 컴퓨터전자시스템공학과(현, 컴퓨터공학부)
-  
-// 관련 정보 중 지역 추가
-거주지 : 경남 김해시
+// 관련자의 정보를 삭제 후 형식에 맞춰 재작성
+int grade=2
+int my_gd=20
+int my_age=23
+string name_sc="한국 외국어 대학"
+char name="이상도"
+char ht="김해"
 
-// 리스트 수정 및 for 문을 이용해 수정
-list l=[2학년, 202002438, 이상도, 컴퓨터전자시스템공학과, 경남 김해시]
 
-for(int i=0; i<5; i++) {
-  printf(list[i]);
-}
+print("저는 %d에서 온 %c 이라고 합니다.\n" %(ht,name))
 
-// 관련자의 나이 추가
-나이 : 23세
+print("저의 대학은 %s이고 저의 학년은 %d이며, %d 학점을 듣고 있습니다." %(name_sc,grade,my_gd))
 
 // 관련자의 가족 관계이력 추가
 엄마, 아빠, 누나, 나;
 
+=======
+//추가적인 내용이 필요.
+
+print("저의 대학은 %s이고 저의 학년은 %d이며, %d 학점을 듣고 있습니다.\n" %(name_sc,grade,my_gd))
+print("믿기지 않겠지만, 저의 나이는 %d 살 입니다.\n" %(age)
+
+for i in range(1,11) {
+  printf("%c", name) 
+}
 
