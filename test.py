@@ -4,7 +4,7 @@ print("Hello, World!\n")
 int grade=2
 int my_gd=20
 int my_age=23
-string name_sc="한국 외국어 대학"
+string name_sc="한국외국어대학교"
 char name="이상도"
 char ht="김해"
 
